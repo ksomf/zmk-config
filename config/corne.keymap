@@ -95,7 +95,7 @@
                         bindings = <
    &none    &none    &none     &none    &none     &none         &none           &none        &none       &none       &none    &none
    &none    &kp LALT &kp LCTRL &kp LGUI &kp LSHFT &none         &kp LEFT        &kp DOWN     &kp UP      &kp RIGHT   &none    &none
-   &none    k&none   &none     &none    &none     &none         &none           &none        &none       &none       &none    &none
+   &none    &none   &none     &none    &none     &none         &none           &none        &none       &none       &none    &none
                                &none    &none     &none         &kp BKSP        &kp RET      &kp DEL
                         >;
                 };
