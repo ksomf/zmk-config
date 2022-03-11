@@ -8,14 +8,15 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define COLEMAK 1
-#define QWERTY  2
-#define SYM     3
-#define NUM     4
-#define FUN     5
-#define MUS     6
-#define NAV     7
-#define MED     8
+#define COLEMAK 0
+#define QWERTY  1
+#define SYM     2
+#define NUM     3
+#define FUN     4
+#define MUS     5
+#define NAV     6
+#define MED     7
+
 
 / {
         keymap {
@@ -57,7 +58,7 @@
    &none   &kp GRAVE  &kp PRCNT    &kp LPAR        &kp RPAR       &kp CARET       &none &none     &none    &none     &none    &none
    &none   &kp SEMI   &kp AT       &kp DLLR        &kp EXCL       &kp HASH        &none &kp LSHFT &kp LGUI &kp LCTRL &kp LALT &none
    &none   &kp COLON  &kp UNDER    &kp KP_MULTIPLY &kp AMPS       &kp PIPE        &none &none     &none    &none     &none    &none
-                                &kp ESC         &kp SPACE      &kp TAB         &none &none     &none
+                                   &kp ESC         &kp SPACE      &kp TAB         &none &none     &none
                         >;
                 };
                 NUM {
