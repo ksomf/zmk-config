@@ -31,7 +31,7 @@
    &none     &hto QWERTY Q &kp W             &kp F       &kp P         &kp B           &kp J        &kp L       &kp U       &kp Y            &kp SQT       &none
    &none     &mt LALT A    &mt LCTRL R       &mt LGUI S  &mt LSHFT T   &kp G           &kp H        &mt LSHFT N &mt LGUI E  &mt LCTRL O      &mt LALT U    &none
    &none     &kp         Z &kp X             &kp C       &kp D         &kp V           &kp K        &kp M       &kp COMMA   &kp DOT          &kp FSLH      &none
-                                             &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BKSP &lt NUM ENT &lt FUN DEL
+                                             &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
                 };
                 QWERTY {
@@ -44,7 +44,7 @@
    &none     &hto COLEMAK Q &kp W       &kp E       &kp R         &kp T         &kp Y        &kp U       &kp I          &kp O         &kp P         &none
    &none     &mt LALT A     &mt LCTRL S &mt LGUI D  &mt LSHFT F   &kp G         &kp H        &mt LSHFT J &mt LGUI K     &mt LCTRL L   &mt LALT SQT  &none
    &none     &kp Z          &kp X       &kp C       &kp V         &kp B         &kp N        &kp M       &kp COMMA      &kp DOT       &kp FSLH      &none
-                                        &lt MED ESC &lt NAV SPACE &lt MUS TAB   &lt SYM BKSP &lt NUM ENT &lt FUN DEL
+                                        &lt MED ESC &lt NAV SPACE &lt MUS TAB   &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
                 };
                 SYM {
@@ -96,7 +96,7 @@
    &none    &none    &none     &none    &none     &none         &none           &none        &none       &none       &none    &none
    &none    &kp LALT &kp LCTRL &kp LGUI &kp LSHFT &none         &kp LEFT        &kp DOWN     &kp UP      &kp RIGHT   &none    &none
    &none    k&none   &none     &none    &none     &none         &none           &none        &none       &none       &none    &none
-                               &none    &none     &none         &kp BKSP        &kp ENT      &kp DEL
+                               &none    &none     &none         &kp BKSP        &kp RET      &kp DEL
                         >;
                 };
                 NAV {
@@ -109,7 +109,7 @@
    &none &none    &none     &none    &none     &none         &kp HOME        &kp PG_DN    &kp PG_UP   &kp END     &none     &none
    &none &kp LALT &kp LCTRL &kp LGUI &kp LSHFT &none         &kp LEFT        &kp DOWN     &kp UP      &kp RIGHT   &none     &none
    &none &none    &none     &none    &none     &none         &none           &none        &none       &none       &none     &none
-                            &none    &none     &none         &kp BKSP        &kp ENT      &kp DEL
+                            &none    &none     &none         &kp BKSP        &kp RET      &kp DEL
                         >;
                 };
                 MED {
@@ -122,7 +122,7 @@
    &none   &none        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &none         &none           &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &none     &none
    &none   &kp LALT     &kp LCTRL    &kp LGUI     &kp LSHFT    &none         &none           &kp C_PREV   &kp C_PP    &kp C_NEXT   &none     &none
    &none   &none        &none        &none        &none        &none         &none           &none        &none       &none        &none     &none
-                                     &none        &none        &none         &kp BKSP        &kp ENT      &kp DEL
+                                     &none        &none        &none         &kp BKSP        &kp RET      &kp DEL
                         >;
                 };
         };
