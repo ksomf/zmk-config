@@ -54,9 +54,9 @@
 // |     |  :  |  _  |  *  |  &  |  |  | |     | |      |      |      |     |      |      |
 //                   | ESC | SPC | TAB | |     | |      |      |      |
                         bindings = <
-   &none   &GRAVE  &kp PRCNT    &kp LPAR        &kp RPAR       &kp CARET       &none &none     &none    &none     &none    &none
-   &none   &SEMI   &kp AT       &kp DLLR        &kp EXCL       &kp HASH        &none &kp LSHFT &kp LGUI &kp LCTRL &kp LALT &none
-   &none   &COLON  &kp UNDER    &kp KP_MULTIPLY &kp AMPS       &kp PIPE        &none &none     &none    &none     &none    &none
+   &none   &kp GRAVE  &kp PRCNT    &kp LPAR        &kp RPAR       &kp CARET       &none &none     &none    &none     &none    &none
+   &none   &kp SEMI   &kp AT       &kp DLLR        &kp EXCL       &kp HASH        &none &kp LSHFT &kp LGUI &kp LCTRL &kp LALT &none
+   &none   &bp COLON  &kp UNDER    &kp KP_MULTIPLY &kp AMPS       &kp PIPE        &none &none     &none    &none     &none    &none
                                 &kp ESC         &kp SPACE      &kp TAB         &none &none     &none
                         >;
                 };
