@@ -30,7 +30,7 @@
 //                    | ESC | SPC | TAB |   | BCK | RET  | DEL |
                         bindings = <
    &none     &hto QWERTY Q &kp W             &kp F       &kp P         &kp B           &kp J        &kp L       &kp U       &kp Y            &kp SQT       &none
-   &none     &mt LALT A    &mt LCTRL R       &mt LGUI S  &mt LSHFT T   &kp G           &kp M        &mt LSHFT N &mt LGUI E  &mt LCTRL O      &mt LALT U    &none
+   &none     &mt LALT A    &mt LCTRL R       &mt LGUI S  &mt LSHFT T   &kp G           &kp M        &mt LSHFT N &mt LGUI E  &mt LCTRL I      &mt LALT O    &none
    &none     &kp         Z &kp X             &kp C       &kp D         &kp V           &kp K        &kp H       &kp COMMA   &kp DOT          &kp FSLH      &none
                                              &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
