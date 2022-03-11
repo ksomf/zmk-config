@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
 
 #define COLEMAK 1
 #define QWERTY  2
@@ -29,10 +28,10 @@
 // |      |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  |      |
 //                    | ESC | SPC | TAB |   | BCK | RET  | DEL |
                         bindings = <
-   &none     &hto QWERTY Q &kp W &kp F       &kp P         &kp B           &kp J        &kp L       &kp U       &kp Y   &kp '    &none
-   &none     &kp         A &kp R &kp S       &kp T         &kp G           &kp M        &kp N       &kp E       &kp O   &kp U    &none
-   &none     &kp         Z &kp X &kp C       &kp D         &kp V           &kp K        &kp M       &kp COMMA   &kp DOT &kp FSLH &none
-                                 &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BSPC &lt NUM ENT &lt FUN DEL
+   &none     &hto QWERTY Q &kp W             &kp F       &kp P         &kp B           &kp J        &kp L       &kp U       &kp Y            &kp '         &none
+   &none     &mt LALT A    &mt LCTRL R       &mt LGUI S  &mt LSHFT T   &kp G           &kp H        &mt LSHFT N &mt LGUI E  &mt LCTRL O      &mt LALT U    &none
+   &none     &kp         Z &kp X             &kp C       &kp D         &kp V           &kp K        &kp M       &kp COMMA   &kp DOT          &kp FSLH      &none
+                                             &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BSPC &lt NUM ENT &lt FUN DEL
                         >;
                 };
                 QWERTY {
@@ -43,7 +42,7 @@
 //                    | ESC | SPC | TAB |   | BCK | RET  | DEL |
                         bindings = <
    &none     &hto COLEMAK Q &kp W       &kp E       &kp R         &kp T         &kp Y        &kp U       &kp I          &kp O         &kp P         &none
-   &none     &hm LALT A     &hm LCTRL S &hm LGUI D  &hm LSHFT F   &kp G         &kp H        &hm LSHFT J &hm LGUI K     &hm LCTRL L   &hm LALT '    &none
+   &none     &mt LALT A     &mt LCTRL S &mt LGUI D  &mt LSHFT F   &kp G         &kp H        &mt LSHFT J &mt LGUI K     &mt LCTRL L   &mt LALT '    &none
    &none     &kp Z          &kp X       &kp C       &kp V         &kp B         &kp N        &kp M       &kp COMMA      &kp DOT       &kp FSLH &none
                                         &lt MED ESC &lt NAV SPACE &lt MUS TAB   &lt SYM BSPC &lt NUM ENT &lt FUN DEL
                         >;
@@ -128,14 +127,6 @@
                 };
         };
         behaviors {
-                hm: homerow_mods {
-                        compatible = "zmk,behavior-hold-tap";
-                        label = "HOMEROW_MODS";
-                        #binding-cells = <2>;
-                        tapping_term_ms = <250>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
                 hto: hold_to {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOLD TO";
