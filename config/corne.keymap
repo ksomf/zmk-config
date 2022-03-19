@@ -135,7 +135,7 @@
 //                    | ESC | SPC | TAB |   | BCK | RET  | DEL |
                         bindings = <
    &kp LCTRL &kp Q          &kp W       &kp E       &kp R         &kp T         &kp Y        &kp U       &kp I          &kp O         &hto COLEMAK P &none
-   &kp LSHFT &kp LALT A     &kp LCTRL S &kp LGUI D  &kp LSHFT F   &kp G         &kp H        &kp LSHFT J &kp LGUI K     &kp LCTRL L   &kp LALT SQT   &none
+   &kp LSHFT &kp A          &kp S       &kp D       &kp F         &kp G         &kp H        &kp J       &kp K          &kp L         &kp SQT        &none
    &kp LCTRL &kp Z          &kp X       &kp C       &kp V         &kp B         &kp N        &kp M       &kp COMMA      &kp DOT       &kp FSLH       &none
                                         &lt MED ESC &lt NAV SPACE &lt MUS TAB   &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
