@@ -31,8 +31,8 @@
 //                    | ESC | SPC | TAB |   | BCK | RET  | DEL |
                         bindings = <
    &none     &hto QWERTY Q &kp W             &kp F       &kp P         &kp B           &kp J        &kp L       &kp U       &kp Y            &hto GAME SQT &none
-   &none     &mt_ LALT A    &mt_ LCTRL R       &mt_ LGUI S  &mt_ LSHFT T   &kp G           &kp H        &mt_ LSHFT N &mt_ LGUI E  &mt_ LCTRL I      &mt_ LALT O    &none
-   &none     &kp         Z &kp X             &kp C       &kp D         &kp V           &kp K        &kp M       &kp COMMA   &kp DOT          &kp FSLH      &none
+   &none     &mt_ LALT A    &mt_ LCTRL R       &mt_ LGUI S  &mt_ LSHFT T   &kp G           &kp M        &mt_ LSHFT N &mt_ LGUI E  &mt_ LCTRL I      &mt_ LALT O    &none
+   &none     &kp         Z &kp X             &kp C       &kp D         &kp V           &kp K        &kp H       &kp COMMA   &kp DOT          &kp FSLH      &none
                                              &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
                 };
