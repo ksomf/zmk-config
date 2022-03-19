@@ -26,12 +26,12 @@
                 COLEMAK {
 // -----------------------------------------------------------------------------------------
 // |      |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  '  |      |
-// |      |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  O  |  U  |      |
+// |      |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |      |
 // |      |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  |      |
 //                    | ESC | SPC | TAB |   | BCK | RET  | DEL |
                         bindings = <
    &none     &hto QWERTY Q &kp W             &kp F       &kp P         &kp B           &kp J        &kp L       &kp U       &kp Y            &hto GAME SQT &none
-   &none     &mt_ LALT A    &mt_ LCTRL R       &mt_ LGUI S  &mt_ LSHFT T   &kp G           &kp H        &mt_ LSHFT N &mt_ LGUI E  &mt_ LCTRL O      &mt_ LALT U    &none
+   &none     &mt_ LALT A    &mt_ LCTRL R       &mt_ LGUI S  &mt_ LSHFT T   &kp G           &kp H        &mt_ LSHFT N &mt_ LGUI E  &mt_ LCTRL I      &mt_ LALT O    &none
    &none     &kp         Z &kp X             &kp C       &kp D         &kp V           &kp K        &kp M       &kp COMMA   &kp DOT          &kp FSLH      &none
                                              &lt MED ESC &lt NAV SPACE &lt MUS TAB     &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
@@ -137,7 +137,7 @@
    &kp LCTRL &kp Q          &kp W       &kp E       &kp R         &kp T         &kp Y        &kp U       &kp I          &kp O         &hto COLEMAK P &none
    &kp LSHFT &kp A          &kp S       &kp D       &kp F         &kp G         &kp H        &kp J       &kp K          &kp L         &kp SQT        &none
    &kp LCTRL &kp Z          &kp X       &kp C       &kp V         &kp B         &kp N        &kp M       &kp COMMA      &kp DOT       &kp FSLH       &none
-                                        &lt MED ESC &lt NAV SPACE &lt MUS TAB   &lt SYM BKSP &lt NUM RET &lt FUN DEL
+                                        &lt MED ESC &kp SPACE     &lt NAV TAB   &lt SYM BKSP &lt NUM RET &lt FUN DEL
                         >;
                 };
         };
